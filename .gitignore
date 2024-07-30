@@ -1,0 +1,12 @@
+# Ignore binary files
+*.bin
+
+# Ignore temporary files
+*.tmp
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+
+# Ignore CAD files
+*.stl
