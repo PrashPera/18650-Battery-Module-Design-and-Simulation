@@ -1,0 +1,16 @@
+[StartTime]
+Lid-Wall Compression.MFC=15s
+[SolverState]
+Lid-Wall Compression.MFC=2
+[MainFrame]
+Lid-Wall Compression.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMBCAAAAAJFBAAAAAEIDAAAAAMCCAAAAA
+[ShowMin]
+Lid-Wall Compression.MFC=No
+[SolverType]
+Lid-Wall Compression.MFC=Linear Analysis
+[StudyType]
+Lid-Wall Compression.MFC=0
+[StudyName]
+Lid-Wall Compression.MFC=Wall Compression
+[Solver]
+Lid-Wall Compression.MFC=Sparse
