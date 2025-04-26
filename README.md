@@ -1,27 +1,36 @@
 # 18650 Battery Module Design and Simulation
 
 ## Overview
-This project involves designing and building a robotic arm using SolidWorks for CAD and 3D printing. 
-The arm is controlled via an Arduino, with C++ scripts managing communication and commands. 
-It integrates mechanical design, electronics, and software development for a comprehensive robotic system.
+This project features a 60-cell 18650 battery module designed in SolidWorks. It includes 3D modeling, exploded view, dimensioned drawings, and FEA stress testing to validate the lid and wall under uniform bolt pressure using real-world materials.
 
 ## Table of Contents
-1. [Installation](#installation)
-2. [Usage](#usage)
-3. [CAD Designs](#cad-designs)
-4. [Real-Life Build](#real-life-build)
-5. [Code](#code)
+1. [CAD Models](#cad-models)
+2. [Engineering Drawings](#engineering-drawings)
+3. [Simulation Results](#simulation-results)
+4. [Exploded View & Assembly](#exploded-view--assembly)
+5. [Materials Used](#materials-used)
 
-## Installation
-Instructions on how to set up the environment to run the code.
+---
 
-## Usage
-Examples of using the project, include running the Python code to control the robotic arm via the Arduino.
+## CAD Models
+SolidWorks `.SLDPRT` and `.SLDASM` files for:
+- Lid
+- Base Plate
+- Side Walls
+- Assembly file
 
-## CAD Designs
-Detailed descriptions of the CAD files, including individual parts and assemblies for 3D printing.
+## Engineering Drawings
+Includes dimensioned and toleranced drawings for each part, using ANSI standard with real manufacturing tolerances (e.g., ±0.1 mm on hole locations, +0.13/0 mm on bolt diameters).
 
-## Real-Life Build
-Photos and descriptions of the real-life build process, showcasing the assembled robotic arm and its components.
+## Simulation Results
+- Static stress simulation under 5000 N/m² uniform pressure on the lid.
+- Max von Mises stress: ~9.7 kPa (well below Aluminum 6061-T6 yield of 55 MPa)
+- Displacement plot confirms minimal flex at bolt hole regions.
 
-## Code
+## Exploded View & Assembly
+An exploded view animation illustrates the full stack-up from base to lid, with proper part order and bolt hole alignment.
+
+## Materials Used
+- Lid & Casing: Aluminum 6061-T6
+- Busbars: Copper (annealed)
+- Battery Shells: Stainless Steel 304
