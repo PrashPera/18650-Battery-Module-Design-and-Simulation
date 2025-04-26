@@ -13,11 +13,16 @@ This project features a 60-cell 18650 battery module designed in SolidWorks. It 
 ---
 
 ## CAD Models
-SolidWorks `.SLDPRT` and `.SLDASM` files for:
-- Lid
-- Base Plate
-- Side Walls
-- Assembly file
+SolidWorks .SLDPRT files for:
+- 18650 Li-ion Cell (reference geometry for layout)
+- Lid (top enclosure with bolt clamping features)
+- Base Plate (bottom foundation with alignment holes)
+- Side Walls (vertical enclosure pieces)
+- Busbar (copper conductor strip)
+- Cooling Plate (Aluminum thermal base)
+- Terminal Block (external power output)
+- Terminal Strip (internal busbar connector)
+- Dowel Screw (custom fastener for assembly)
 
 ## Engineering Drawings
 Includes dimensioned and toleranced drawings for each part, using ANSI standard with real manufacturing tolerances (e.g., ±0.1 mm on hole locations, +0.13/0 mm on bolt diameters).
