@@ -1,4 +1,4 @@
-# Robotic-Arm-Project
+# 18650 Battery Module Design and Simulation
 
 ## Overview
 This project involves designing and building a robotic arm using SolidWorks for CAD and 3D printing. 
